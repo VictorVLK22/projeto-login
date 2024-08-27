@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-
 /*
 paleta de cores 
 verde: #49a09d
@@ -12,6 +9,7 @@ Lilás: #5f2c82
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body, html{
@@ -59,4 +57,13 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
